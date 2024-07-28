@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import os
 
-os.environ["GENAI_API_KEY"] = "AIzaSyB3m41ogZgvqSZEBbf1r4g6F8AHbVChTFY"
+os.environ["GENAI_API_KEY"] = ""
 
 genai.configure(api_key=os.getenv('GENAI_API_KEY'))
 
